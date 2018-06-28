@@ -33,5 +33,6 @@ Vagrant.configure("2") do |config|
     tar -xf openshift-origin-client-tools-v3.9.0-191fece-linux-64bit.tar.gz
     cd openshift-origin-client-tools-v3.9.0-191fece-linux-64bit
     cp oc /usr/bin
+    rm -rf ~/openshift-origin-client-tools*
   SHELL
 end
