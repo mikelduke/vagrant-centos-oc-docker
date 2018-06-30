@@ -1,9 +1,12 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# https://kubernetes.io/docs/setup/minikube/
+
 NODE_IP = "172.30.0.9"
-NODE_VCPUS = 2
-NODE_MEMORY_SIZE = 4096
+NODE_VCPUS = 4
+# NODE_MEMORY_SIZE = 4096
+NODE_MEMORY_SIZE = 8192
 
 
 Vagrant.configure("2") do |config|
